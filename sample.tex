@@ -1,0 +1,182 @@
+%%%%%%%%%%%%%%%%%
+% This is an sample CV template created using altacv.cls
+% (v1.6.5, 3 Nov 2022) written by LianTze Lim (liantze@gmail.com). Compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+%% AltaCV uses the fontawesome5 and packages.
+%% See http://texdoc.net/pkg/fontawesome5 for full list of symbols.
+
+% Change the page layout if you need to
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+% The paracol package lets you typeset columns of text in parallel
+\usepackage{paracol}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  % If using pdflatex:
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  % \usepackage{sourcesanspro}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Change the colours if you want to
+\definecolor{Navy}{HTML}{000080}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{444444}
+\colorlet{heading}{Navy}
+\colorlet{accent}{Navy}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change some fonts, if necessary
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\begin{document}
+\name{Ella Soccoli}
+\tagline{Game Developer Looking for Co-op Summer 2023}
+
+\personalinfo{%
+  % Not all of these are required!
+  \email{ella.soccoli@mail.rit.edu}
+  %\phone{000-00-0000}
+  %\homepage{www.homepage.com}
+  \linkedin{ella-soccoli}
+  \github{esoccoli}
+}
+
+\makecvheader
+
+%% Set the left/right column width ratio to 55%:44%.
+\columnratio{0.55}
+
+% Start a 2-column paracol. Both the left and right columns will automatically
+% break across pages if things get too long.
+\begin{paracol}{2}
+\cvsection{Education}
+
+\cvevent{B.S. Game Design and Development}{Rochester Institute of Technology}{May 2026}{}
+\begin{itemize}
+  \item Achieved a cumulative GPA of 3.82
+  \item Awarded Dean's List for Fall 2022
+\end{itemize}
+
+\cvsection{Projects}
+
+\cvevent{Brick Breaker}{C\#, Monogame, .NET Core, Visual Studio}{}{}
+\begin{itemize}
+  \item Developed a custom Brick Breaker game in C\# using the Monogame framework.
+  \item Implemented a collision detection system to detect collisions between the ball, bricks, and paddle.
+  \item Learned how to write neat and organized code using comments, classes, and methods.
+\end{itemize}
+
+\divider
+
+\cvevent{NewUHC}{Java, Kotlin, PaperMC, IntelliJ IDEA}{}{}
+\begin{itemize}
+  \item Created a custom Minecraft plugin for a PaperMC server using Java and Kotlin.
+  \item Acquired knowledge of the PaperMC API and used it to create custom events and commands.
+  \item Learned how to host and manage a Minecraft server on a local machine.
+\end{itemize}
+
+\divider
+
+\cvevent{Personal Website}{HTML, CSS, JavaScript, Bootstrap, Github Pages}{}{}
+\begin{itemize}
+  \item Designed a website to display my resume and portfolio using HTML, CSS, and JavaScript.
+  \item Implemented responsive page elements using Bootstrap and Javascript.
+  \item Heightened knowledge of Javascript and HTML media queries.
+\end{itemize}
+
+\divider
+
+\cvevent{Space Invader}{C\#, Monogame, .NET Core, Visual Studio}{}{}
+\begin{itemize}
+  \item Expanded knowledge of C\# and Monogame by creating a Space Invader game.
+  \item Discovered new techniques for managing large projects, such as breaking it into small tasks and using a task manager.
+\end{itemize}
+
+\switchcolumn
+
+\cvsection{Skills}
+\cvtag{C\#}
+\cvtag{Java}
+\cvtag{Python}
+\cvtag{Kotlin}
+
+\divider
+
+\cvtag{Git/Github}
+\cvtag{Visual Studio}
+\cvtag{IntelliJ IDEA}
+\cvtag{Visual Studio Code}
+\cvtag{Monogame}
+\cvtag{Windows 10/11}
+\cvtag{.NET Core}
+
+\medskip
+
+\cvsection{Activities}
+\cvevent{Computer Science House}{Rochester Institute of Technology}{}{}
+\begin{itemize}
+  \item Joined an organization of students that share a passion for computer science.
+  \item Collaborated with other members to develop new skills and improve existing ones.
+  \item Participated in weekly meetings and activities to meet new people and learn new things.
+\end{itemize}
+
+\divider
+
+\cvevent{Game Symphony Orchestra}{Rochester Institute of Technology}{}{}
+\begin{itemize}
+  \item Participated in a student led orchestra that performs video game music.
+  \item Discovered a community of musicians that share a passion for video games and music.
+\end{itemize}
+
+\divider
+
+\cvevent{Women in Computing}{Rochester Institute of Technology}{}{}
+\begin{itemize}
+  \item Student led organization consisting mainly of students in computing majors.
+  \item Provided members with opportunities to develop skills in leadership, communication, and collaboration.
+  \item Hosted a variety of events to allow members to meet others and form connections.
+\end{itemize}
+
+\medskip
+
+\cvsection{Experience}
+
+\cvevent{Student Note Taker}{Rochester Institute of Technology}{January 2023 - Present}{}
+\begin{itemize}
+  \item Acted as a note taker in certain classes for students with disabilities.
+  \item Compiled detailed and descriptive documents containing all the information from class lectures.
+  \item Heightened knowledge of class material and improved note taking skills.
+\end{itemize}
+
+\end{paracol}
+
+\end{document}
