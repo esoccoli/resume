@@ -1,9 +1,11 @@
 # Default ignored files
 /shelf/
+/out/
 
 /.idea/GitLink.xml
 /.idea/Ella Resume 12-20-22.iml
 /.idea/workspace.xml
 /auxil/
-/out/
+/out/sample.synctex.gz
+/out/sample.pdf
 /nicethings_icons_readme.txt
