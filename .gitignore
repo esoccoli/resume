@@ -1,5 +1,6 @@
 # Default ignored files
 /shelf/
+<<<<<<< HEAD
 
 /sample.aux
 /sample.log
@@ -7,3 +8,7 @@
 /sample.synctex.gz
 /sample.pdf
 /pdfa.xmpi
+=======
+/out/
+/.idea/
+>>>>>>> e4840406b95398215c8daaebaae27ff233080d45
