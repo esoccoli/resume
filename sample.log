@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.19)  2 JAN 2023 22:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2022.12.19)  11 JAN 2023 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -914,7 +914,7 @@ File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 60.
 
-No file sample.aux.
+(sample.aux)
 \openout1 = `sample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
@@ -962,6 +962,7 @@ fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 60.
+ (sample.out) (sample.out)
 \@outlinefile=\write5
 \openout5 = `sample.out'.
 
@@ -1027,6 +1028,11 @@ nput line 73.
 
 (C:\Users\socco\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
 mefree0.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 73.
+
+(C:\Users\socco\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontaweso
+mefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
  input line 73.
 
@@ -1060,57 +1066,51 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 85.
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 91.
 
-Overfull \hbox (1.48126pt too wide) in paragraph at lines 127--134
+Overfull \hbox (1.48126pt too wide) in paragraph at lines 127--135
 [][]  []  []  []  []  [] 
  []
 
 
-Overfull \hbox (24.63129pt too wide) in paragraph at lines 137--144
-[]  []  [] 
- []
-
-
-Overfull \hbox (0.11127pt too wide) in paragraph at lines 160--161
+Overfull \hbox (0.11127pt too wide) in paragraph at lines 161--162
 []\T1/lato-TLF/m/n/10 Discovered a com-mu-nity of mu-si-cians that share 
  []
 
 [1
 
-] [2] (sample.aux)
-
-Package rerunfilecheck Warning: File `sample.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sample.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+] (sample.aux)
+Package rerunfilecheck Info: File `sample.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 33060 strings out of 475281
- 657739 string characters out of 2774064
- 972941 words of memory out of 3000000
- 53961 multiletter control sequences out of 15000+600000
- 668819 words of font info for 55 fonts, out of 8000000 for 9000
+ 33082 strings out of 475281
+ 658418 string characters out of 2774064
+ 978999 words of memory out of 3000000
+ 53974 multiletter control sequences out of 15000+600000
+ 669445 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,7n,120p,530b,2379s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lato/a_rt66h3.e
 nc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/f
-a5brands0.enc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lat
-o/a_cl4kdn.enc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fo
-ntawesome5/fa5free0.enc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc
-/dvips/roboto/rbto_j2bk2t.enc}<C:/Users/socco/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/socco/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Sol
-id.pfb><C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/type1/typoland/lato/
-Lato-Bold.pfb><C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/type1/typolan
-d/lato/Lato-Regular.pfb><C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on C:/Users\socco\Desktop\resume\sample.pdf (2 pages, 134658 byt
-es).
+a5brands0.enc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fon
+tawesome5/fa5free1.enc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc/
+dvips/lato/a_cl4kdn.enc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/enc
+/dvips/fontawesome5/fa5free0.enc}{C:/Users/socco/AppData/Local/Programs/MiKTeX/
+fonts/enc/dvips/roboto/rbto_j2bk2t.enc}<C:/Users/socco/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/
+socco/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome
+5Free-Solid.pfb><C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/type1/typol
+and/lato/Lato-Bold.pfb><C:/Users/socco/AppData/Local/Programs/MiKTeX/fonts/type
+1/typoland/lato/Lato-Regular.pfb><C:/Users/socco/AppData/Local/Programs/MiKTeX/
+fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
+Output written on C:/Users\socco\Desktop\resume\sample.pdf (1 page, 136809 byte
+s).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
+ 67 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
  45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
