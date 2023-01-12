@@ -1,1 +1,5 @@
-.idea/
+/.idea
+/out/pdfa.xmpi
+/out/sample.aux
+/out/sample.log
+/out/sample.synctex.gz
